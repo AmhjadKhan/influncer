@@ -9,7 +9,7 @@ nav{
 
 nav ul{
     display: flex;
-    margin-left: 200px;
+    margin-left: 100px;
 }
 .navtitle{
     font-size: 1.6rem;
@@ -29,7 +29,35 @@ nav ul li a{
 .bannersec{
     display: flex;
 }
-
+.banner-riy{
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.banner-riy h1{
+    font-weight: 60px;
+    font-size: 50px;
+}
+.banner-riy button{
+    color: white;
+    background-color: #E02C6D;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.imagessec{
+    margin-left: 100px;
+    margin-top: 70px;
+}
+/* finish banner section  */
+.sponser-img{
+    text-align: center;
+    margin-top: 50px;
+}
+.sponser-img img{
+    margin: 40px;
+}
 
 /* this is card section  */
 .facts-card-container{
@@ -37,6 +65,9 @@ nav ul li a{
 }
 .card{
     margin-left:70px;
+    border: 2px solid white;
+    gap: 10px;
+    margin-bottom: 30px;
 }
 
 .facts-card-container2{
@@ -45,4 +76,35 @@ nav ul li a{
 
 .facts-card-container3{
     display: flex;
+}
+/* finish card section  */
+
+.middle-sec{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.mid-wr{
+    margin-left: 50px;
+}
+.mid-wr button{
+    color: white;
+    background-color: #E02C6D;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+/* finish middle section  */
+footer{
+    margin-top: 100px;
+    background-color: navy;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.fotter-item{
+    margin-left: 500px;
+
 }
