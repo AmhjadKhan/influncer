@@ -1,19 +1,24 @@
-header{
-    background-color: antiquewhite;
-    padding: 50px 240px;
+
+.thems-container{
+    
+    background-color: rgb(246, 184, 103);
+    height: 120px;
+    width: 1340px;
+    display: flex;
 }
 nav{
-    display: flex;
     justify-content: center;
 }
 
 nav ul{
     display: flex;
-    margin-left: 100px;
+    margin-left: 200px;
+    margin-top: 40px;
 }
 .navtitle{
     font-size: 1.6rem;
     font-weight: 700;
+    margin-left: 300px;
 }
 nav ul li{
     list-style: none;
@@ -63,6 +68,11 @@ nav ul li a{
 .facts-card-container{
     display: flex;
 }
+.fact-tit{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
 .card{
     margin-left:70px;
     border: 2px solid white;
@@ -73,7 +83,9 @@ nav ul li a{
 .facts-card-container2{
     display: flex;
 }
-
+.star i{
+    background-color: yellow;   
+}
 .facts-card-container3{
     display: flex;
 }
