@@ -1,0 +1,48 @@
+header{
+    background-color: antiquewhite;
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul{
+    display: flex;
+    margin-left: 200px;
+}
+.navtitle{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500px;
+    font-size: 1rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+/* this is navber finish */
+.bannersec{
+    display: flex;
+}
+
+
+/* this is card section  */
+.facts-card-container{
+    display: flex;
+}
+.card{
+    margin-left:70px;
+}
+
+.facts-card-container2{
+    display: flex;
+}
+
+.facts-card-container3{
+    display: flex;
+}
